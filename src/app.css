@@ -1,0 +1,159 @@
+.list-group{
+	background-color: #050505;
+	display: block;
+    width:100%;
+	width: 300px;
+    height:500px;
+    overflow: scroll;
+    overflow-x: hidden;
+    text-align: center;
+	border: 5px solid #101010;
+	border-radius: 5px;
+}
+.list-header{
+	color: #F5F5F5;
+	padding: 3px;
+	border-radius: 5px;
+	background-color: #050505;
+	margin: 0;
+}
+
+.list-group::-webkit-scrollbar-track
+{
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #b83707;
+}
+
+.list-group::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #b83707;
+}
+
+.list-group::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: rgba(0, 0, 0, 0.666);;
+}
+
+.list-group-item{
+	color:#F5F5F5;
+	background-color: #050505;
+	cursor:pointer;
+	font-size: 0.9rem;
+}
+.logo{
+	margin-bottom: 25px;
+	color: white;	
+}
+#top-container{
+	padding: 100px 0 50px 0;
+	max-height: 1000px;
+	background: url("./img/bg.png");
+	background-size: contain;
+	background-attachment:scroll;
+	background-repeat: round;
+}
+#map-container{	
+	background-color: #050505;
+	text-align: center;
+}
+.map{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px 20px 50px 20px;
+}
+.map .list-header{
+	padding: 5px 10px 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	color: white;
+	background: transparent;
+	border: 2px solid #b83707;
+}
+.alt-text{
+	font-size: 1.5rem;
+	color: white;
+	box-shadow: black;
+}
+.city-list{
+	margin-top: 50px;
+	display: inline-block;
+	padding-right: 50px;
+}
+.nearest-city-list{
+	margin-top: 20px;
+	display: inline-block;
+	padding: 20px;
+}
+.county-list{
+	padding-left: 50px;
+	display: inline-block;
+}
+
+.nearest{
+	width: 300px;
+    height:150px;	
+	overflow: hidden;
+	align-items: center;
+
+}
+.nearest-header{
+	background-color: #b83707;
+}
+
+.searchCity{
+	align-items: center;
+}
+
+.searchButton{
+	background-color: #b83707;
+	border-color: #050505;
+	padding: 5px 10px 5px 10px;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+
+.coordinateInput{
+	background: transparent;
+	display: block;
+	color: white;
+	border: 2px solid #b83707;
+	border-radius: 20px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+.coordinateInput:focus{
+	border: 2px solid #F5F5F5;
+	outline: none;
+}
+
+.buttonInput{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 30px;
+}
+.searchButton{
+	border: 2px solid black;
+}
+.searchButton:hover{
+	background-color: black;
+	color:white;
+	border: 2px solid white;
+}
+.searchButton:onClick{
+	color:yellow;
+}
+.searchButton:focus{
+	
+	outline: none;
+}
