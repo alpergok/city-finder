@@ -18,7 +18,7 @@ const center = {
 
 export default function Map(props) {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: "AIzaSyBISspa9Lk8lSiHiC3c6GMeVkX2QQJupoQ",
+    googleMapsApiKey: "APIKey",
   });
 
 
